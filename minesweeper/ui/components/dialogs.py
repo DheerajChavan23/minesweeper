@@ -230,16 +230,6 @@ class DialogManager:
         notebook.add(controls_frame, text="Controls")
         self._create_controls_tab(controls_frame)
         
-        # Tab 3: Strategies
-        strategies_frame = ttk.Frame(notebook)
-        notebook.add(strategies_frame, text="Strategies")
-        self._create_strategies_tab(strategies_frame)
-        
-        # Tab 4: About
-        about_frame = ttk.Frame(notebook)
-        notebook.add(about_frame, text="About")
-        self._create_about_tab(about_frame)
-        
         # Close button
         close_btn = tk.Button(help_window, text="Close", command=help_window.destroy, 
                              bg='lightcoral', font=('Arial', 10, 'bold'), width=15)

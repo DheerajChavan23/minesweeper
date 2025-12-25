@@ -1,9 +1,12 @@
 class Cell:
+    """
+    Represents a single cell of the Minesweeper game board.
+    """
     def __init__(self):
-        self.is_mine = False
-        self.value = 0
-        self.revealed = False
-        self.marked = False
+        self.is_mine = False     # True if this cell contains a mine
+        self.value = 0           # Number of adjacent mines (0-8)
+        self.revealed = False    # True if player has clicked on this cell
+        self.marked = False      # True if player has placed a flag on this cell
 
 class Board:
     def __init__(self, rows, cols, mines):
