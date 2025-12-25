@@ -1,4 +1,3 @@
-````md
 # 🧨 Minesweeper 
 
 <p align="center">
