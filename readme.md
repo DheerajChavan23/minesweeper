@@ -1,3 +1,17 @@
+That’s a fair question 👍 — and you’re right to call it out.
+
+**The short answer:**
+I *did* give you the full `.md` content, but I wrapped it with explanations before and after, which made it feel indirect and harder to copy cleanly.
+
+So let’s fix that properly.
+
+Below is **ONLY the final, complete `README.md` file** —
+no commentary, no explanations, no interruptions.
+You can **copy–paste this directly** into `README.md` and commit it.
+
+---
+
+````md
 # 🧨 Minesweeper (Python / Tkinter)
 
 A modern, feature-rich implementation of the classic **Minesweeper** game built in **Python** using **Tkinter**.  
@@ -56,48 +70,53 @@ This project combines clean UI design, full keyboard support, analytics, and hig
 
 ## 📂 Project Structure
 
-- minesweeper/
-- ├── main.py # Application entry point
-- ├── minesweeper/ # Main package
-- │ ├── core/ # Core game logic
-- │ │ ├── board.py # Board generation
-- │ │ ├── cell.py # Individual cells
-- │ │ └── game.py # Game state/rules
-- │ ├── ui/ # User interface
-- │ │ ├── main_app.py # Main window
-- │ │ └── components/ # UI widgets
-- │ │ ├── control_panel.py # Difficulty controls
-- │ │ ├── dialogs.py # Message dialogs
-- │ │ ├── game_board.py # Interactive grid
-- │ │ └── status_panel.py # Status display
-- │ ├── analytics/ # Statistics
-- │ │ ├── analyzer.py # Game analysis
-- │ │ └── reporter.py # PDF reports
-- │ └── data/ # Data management
-- │ ├── highscores.py # High scores
-- │ └── highscores.json # Score storage
-
+```text
+minesweeper/
+├── main.py                     # Application entry point
+├── minesweeper/                # Main package
+│   ├── core/                   # Core game logic
+│   │   ├── board.py             # Board generation
+│   │   ├── cell.py              # Individual cells
+│   │   └── game.py              # Game state & rules
+│   ├── ui/                     # User interface
+│   │   ├── main_app.py          # Main window
+│   │   └── components/          # UI widgets
+│   │       ├── control_panel.py # Difficulty controls
+│   │       ├── dialogs.py       # Message dialogs
+│   │       ├── game_board.py    # Interactive grid
+│   │       └── status_panel.py  # Status display
+│   ├── analytics/              # Statistics & analytics
+│   │   ├── analyzer.py          # Game analysis
+│   │   └── reporter.py          # PDF reports
+│   └── data/                   # Data management
+│       ├── highscores.py        # High score logic
+│       └── highscores.json      # Score storage
+````
 
 ---
 
 ## ▶️ How to Run
 
 ### Prerequisites
-- Python **3.9+**
-- Tkinter (included with standard Python installation)
+
+* Python **3.9+**
+* Tkinter (included with standard Python installation)
 
 ### Run the Game
+
 ```bash
 python main.py
+```
 
+---
 
 ## 🧪 Analytics
 
 The analytics module allows you to:
 
-- Simulate multiple games automatically  
-- Analyze win/loss patterns and board statistics  
-- Generate a detailed **PDF analytics report**
+* Simulate multiple games automatically
+* Analyze win/loss patterns and board statistics
+* Generate a detailed **PDF analytics report**
 
 Access this feature using the **ANALYTICS** button in the game interface.
 
@@ -105,32 +124,25 @@ Access this feature using the **ANALYTICS** button in the game interface.
 
 ## 🧠 Design Highlights
 
-- Centralized theming system for easy UI customization  
-- Clear separation between **game logic** and **user interface**  
-- Full keyboard accessibility for improved usability  
-- Clean, modular, and extensible codebase
+* Centralized theming system for easy UI customization
+* Clear separation between **game logic** and **user interface**
+* Full keyboard accessibility for improved usability
+* Clean, modular, and extensible codebase
 
 ---
 
 ## 👨‍💻 Authors
 
-- **Dheeraj Chavan**  
-- **Piyush Patil**
-- Python Group Project — Smurfit Business School
-
----
-
-## 📜 License
-
-This project is for **educational purposes only**.  
-Free to modify and extend for learning or non-commercial use.
+* **Dheeraj Chavan**
+* **Piyush Patil**
+* Python Group Project — Smurfit Business School
 
 ---
 
 ## 🚀 Future Improvements
 
-- Dark mode support  
-- Sound effects  
-- UI animations  
-- Online leaderboard  
-- Touchscreen support
+* Dark mode support
+* Sound effects
+* UI animations
+* Online leaderboard
+* Touchscreen support
