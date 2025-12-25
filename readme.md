@@ -1,18 +1,9 @@
-That’s a fair question 👍 — and you’re right to call it out.
-
-**The short answer:**
-I *did* give you the full `.md` content, but I wrapped it with explanations before and after, which made it feel indirect and harder to copy cleanly.
-
-So let’s fix that properly.
-
-Below is **ONLY the final, complete `README.md` file** —
-no commentary, no explanations, no interruptions.
-You can **copy–paste this directly** into `README.md` and commit it.
-
----
-
 ````md
-# 🧨 Minesweeper (Python / Tkinter)
+# 🧨 Minesweeper 
+
+<p align="center">
+  <img src="screenshots/gameplay.png" width="600">
+</p>
 
 A modern, feature-rich implementation of the classic **Minesweeper** game built in **Python** using **Tkinter**.  
 This project combines clean UI design, full keyboard support, analytics, and high-score tracking.
