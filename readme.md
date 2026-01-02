@@ -1,9 +1,5 @@
 # 🧨 Minesweeper 
 
-<p align="center">
-  <img src="screenshots/gameplay.png" width="600">
-</p>
-
 A modern, feature-rich implementation of the classic **Minesweeper** game built in **Python** using **Tkinter**.  
 This project combines clean UI design, full keyboard support, analytics, and high-score tracking.
 
@@ -100,6 +96,10 @@ python main.py
 
 ---
 
+<p align="center">
+  <img src="screenshots/gameplay.png" width="600">
+</p>
+
 ## 🧪 Analytics
 
 The analytics module allows you to:
@@ -125,7 +125,7 @@ Access this feature using the **ANALYTICS** button in the game interface.
 
 * **Dheeraj Chavan**
 * **Piyush Patil**
-* Python Group Project — Smurfit Business School
+* Python Group Project — UCD Smurfit Business School
 
 ---
 
